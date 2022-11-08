@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/Lab4
     docker:
-      - image: circleci/android:api-32
+      - image: ccistaging/android:api-32
     environment:
       JVM_OPTS: -Xmx3200m
     steps:

@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/Lab_4_Profile_Manager
+    working_directory: ~/Lab4
     docker:
       - image: circleci/android:api-32
     environment:
